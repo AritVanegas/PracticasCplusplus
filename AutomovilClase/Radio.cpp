@@ -18,8 +18,13 @@ Radio::Radio(char *_marca, bool _tieneUSB)
 
 void Radio::mostrarDatos(){
 	cout << "Radio:" <<endl;
+	cout << "======" <<endl;
 	cout << "Marca: "<<marca<<endl;
-	cout << "Tiene USB: " << ((tieneUSB)?SI:NO);
+	cout << "Tiene USB: " << ((tieneUSB)?SI:NO)<<endl;
+}
+
+Radio::~Radio(){
+	cout << "Se destruyo Radio" <<endl;
 }
 
 

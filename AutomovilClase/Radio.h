@@ -12,6 +12,7 @@ class Radio
 	public:
 		Radio();
 		Radio(char*,bool);
+		~Radio();
 		void mostrarDatos();
 	protected:
 };
